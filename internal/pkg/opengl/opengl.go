@@ -14,11 +14,11 @@ func InitOpenGL() (uint32, error) {
 
 	vertexShader, err := CompileShader(vertexShaderSource, gl.VERTEX_SHADER)
 	if err != nil {
-		panic(err)
+		return 0, err
 	}
 	fragmentShader, err := CompileShader(fragmentShaderSource, gl.FRAGMENT_SHADER)
 	if err != nil {
-		panic(err)
+		return 0, err
 	}
 
 	prog := gl.CreateProgram()

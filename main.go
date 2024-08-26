@@ -30,7 +30,6 @@ func main() {
 		},
 	)
 	if err != nil {
-		log.Println("Hello")
 		log.Fatal(err)
 		return
 	}

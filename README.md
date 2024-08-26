@@ -6,7 +6,7 @@
 
 - **Golang** : `go1.22.4`
 
-## Utilisation
+## Version
 - **Golang** : `go1.22.4`
 - **OpenGL** : `v4.1-core/gl`
 - **GLFW** : `v3.2`
